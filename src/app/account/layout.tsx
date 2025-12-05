@@ -7,10 +7,10 @@ import { cn } from '@/lib/utils';
 import { Separator } from '@/components/ui/separator';
 
 const navItems = [
-  { href: '/account', label: 'Dashboard', icon: Home },
-  { href: '/account/profile', label: 'Profile', icon: User },
-  { href: '/account/orders', label: 'Orders', icon: Package },
-  { href: '/account/addresses', label: 'Addresses', icon: MapPin },
+  { href: '/account', label: 'Dasbor', icon: Home },
+  { href: '/account/profile', label: 'Profil', icon: User },
+  { href: '/account/orders', label: 'Pesanan', icon: Package },
+  { href: '/account/addresses', label: 'Alamat', icon: MapPin },
 ];
 
 export default function AccountLayout({
@@ -23,7 +23,7 @@ export default function AccountLayout({
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="text-center mb-12">
-        <h1 className="font-headline text-4xl md:text-5xl font-bold">My Account</h1>
+        <h1 className="font-headline text-4xl md:text-5xl font-bold">Akun Saya</h1>
       </div>
       <div className="grid md:grid-cols-4 gap-8">
         <aside className="md:col-span-1">
@@ -47,7 +47,7 @@ export default function AccountLayout({
                 className='flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary'
               >
                 <LogOut className="h-4 w-4" />
-                Logout
+                Keluar
               </Link>
           </nav>
         </aside>

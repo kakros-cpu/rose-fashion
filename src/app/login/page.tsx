@@ -9,8 +9,8 @@ export default function LoginPage() {
     <div className="flex items-center justify-center min-h-[80vh] bg-accent/30">
       <Card className="w-full max-w-sm">
         <CardHeader className="text-center">
-          <CardTitle className="text-2xl font-headline">Welcome Back</CardTitle>
-          <CardDescription>Enter your email below to login to your account.</CardDescription>
+          <CardTitle className="text-2xl font-headline">Selamat Datang Kembali</CardTitle>
+          <CardDescription>Masukkan email Anda di bawah ini untuk masuk ke akun Anda.</CardDescription>
         </CardHeader>
         <CardContent className="grid gap-4">
           <div className="grid gap-2">
@@ -19,20 +19,20 @@ export default function LoginPage() {
           </div>
           <div className="grid gap-2">
             <div className="flex items-center">
-              <Label htmlFor="password">Password</Label>
+              <Label htmlFor="password">Kata Sandi</Label>
               <Link href="#" className="ml-auto inline-block text-sm underline">
-                Forgot your password?
+                Lupa kata sandi?
               </Link>
             </div>
             <Input id="password" type="password" required />
           </div>
         </CardContent>
         <CardFooter className="flex-col gap-4">
-          <Button className="w-full">Sign in</Button>
+          <Button className="w-full">Masuk</Button>
           <div className="text-center text-sm">
-            Don&apos;t have an account?{' '}
+            Belum punya akun?{' '}
             <Link href="/register" className="underline">
-              Sign up
+              Daftar
             </Link>
           </div>
         </CardFooter>

@@ -7,10 +7,10 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Icons } from '../icons';
 
 const navLinks = [
-  { href: '/', label: 'Home' },
-  { href: '/products', label: 'Shop' },
-  { href: '#', label: 'New Arrivals' },
-  { href: '#', label: 'Sale' },
+  { href: '/', label: 'Beranda' },
+  { href: '/products', label: 'Toko' },
+  { href: '#', label: 'Pendatang Baru' },
+  { href: '#', label: 'Diskon' },
 ];
 
 export default function Header() {
@@ -41,7 +41,7 @@ export default function Header() {
           <SheetTrigger asChild>
             <Button variant="ghost" size="icon" className="md:hidden">
               <Menu className="h-6 w-6" />
-              <span className="sr-only">Toggle Menu</span>
+              <span className="sr-only">Buka Menu</span>
             </Button>
           </SheetTrigger>
           <SheetContent side="left">
@@ -74,23 +74,23 @@ export default function Header() {
           <nav className="flex items-center space-x-1">
             <Button variant="ghost" size="icon">
               <Search className="h-5 w-5" />
-              <span className="sr-only">Search</span>
+              <span className="sr-only">Cari</span>
             </Button>
             <Button variant="ghost" size="icon">
               <Heart className="h-5 w-5" />
-              <span className="sr-only">Wishlist</span>
+              <span className="sr-only">Daftar Keinginan</span>
             </Button>
             <Link href="/account">
               <Button variant="ghost" size="icon">
                 <User className="h-5 w-5" />
-                <span className="sr-only">Account</span>
+                <span className="sr-only">Akun</span>
               </Button>
             </Link>
             <Link href="/cart">
               <Button variant="ghost" size="icon" className="relative">
                 <ShoppingCart className="h-5 w-5" />
                 <span className="absolute -top-1 -right-1 flex h-4 w-4 items-center justify-center rounded-full bg-primary text-primary-foreground text-xs">3</span>
-                <span className="sr-only">Shopping Cart</span>
+                <span className="sr-only">Keranjang Belanja</span>
               </Button>
             </Link>
           </nav>

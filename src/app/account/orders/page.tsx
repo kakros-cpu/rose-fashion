@@ -12,19 +12,19 @@ const orders = [
   {
     id: "ORD001",
     date: "2023-11-23",
-    status: "Delivered",
+    status: "Terkirim",
     total: "$169.98",
   },
   {
     id: "ORD002",
     date: "2023-12-05",
-    status: "Processing",
+    status: "Diproses",
     total: "$89.99",
   },
   {
     id: "ORD003",
     date: "2024-01-12",
-    status: "Shipped",
+    status: "Dikirim",
     total: "$249.50",
   },
 ];
@@ -33,12 +33,12 @@ const orders = [
 export default function OrdersPage() {
   return (
     <div className="space-y-6">
-        <h2 className="text-2xl font-headline font-semibold">My Orders</h2>
+        <h2 className="text-2xl font-headline font-semibold">Pesanan Saya</h2>
         <Table>
           <TableHeader>
             <TableRow>
-              <TableHead>Order ID</TableHead>
-              <TableHead>Date</TableHead>
+              <TableHead>ID Pesanan</TableHead>
+              <TableHead>Tanggal</TableHead>
               <TableHead>Status</TableHead>
               <TableHead className="text-right">Total</TableHead>
             </TableRow>
@@ -51,12 +51,12 @@ export default function OrdersPage() {
                 <TableCell>
                   <Badge 
                     variant={
-                      order.status === 'Delivered' ? 'default' : 
-                      order.status === 'Processing' ? 'secondary' : 'outline'
+                      order.status === 'Terkirim' ? 'default' : 
+                      order.status === 'Diproses' ? 'secondary' : 'outline'
                     }
                     className={
-                      order.status === 'Delivered' ? 'bg-green-100 text-green-800' :
-                      order.status === 'Processing' ? 'bg-yellow-100 text-yellow-800' : ''
+                      order.status === 'Terkirim' ? 'bg-green-100 text-green-800' :
+                      order.status === 'Diproses' ? 'bg-yellow-100 text-yellow-800' : ''
                     }
                   >
                     {order.status}

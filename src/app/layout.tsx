@@ -7,7 +7,7 @@ import Footer from '@/components/layout/footer';
 
 export const metadata: Metadata = {
   title: 'Rose Fashion Online',
-  description: 'Elegant and modern fashion for every occasion.',
+  description: 'Gaya busana yang elegan dan modern untuk setiap kesempatan.',
 };
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="id" suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

@@ -14,7 +14,7 @@ export default function Footer() {
                   Rose Fashion
                 </span>
               </Link>
-            <p className="text-sm">Elegant and modern fashion for every occasion.</p>
+            <p className="text-sm">Gaya busana yang elegan dan modern untuk setiap kesempatan.</p>
             <div className="flex space-x-4">
               <Link href="#" className="hover:text-primary"><Facebook size={20} /></Link>
               <Link href="#" className="hover:text-primary"><Instagram size={20} /></Link>
@@ -23,35 +23,35 @@ export default function Footer() {
             </div>
           </div>
           <div>
-            <h4 className="font-headline font-semibold mb-4">Shop</h4>
+            <h4 className="font-headline font-semibold mb-4">Toko</h4>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/products" className="hover:text-primary">All Products</Link></li>
-              <li><Link href="#" className="hover:text-primary">New Arrivals</Link></li>
-              <li><Link href="#" className="hover:text-primary">Best Sellers</Link></li>
-              <li><Link href="#" className="hover:text-primary">Sale</Link></li>
+              <li><Link href="/products" className="hover:text-primary">Semua Produk</Link></li>
+              <li><Link href="#" className="hover:text-primary">Pendatang Baru</Link></li>
+              <li><Link href="#" className="hover:text-primary">Terlaris</Link></li>
+              <li><Link href="#" className="hover:text-primary">Diskon</Link></li>
             </ul>
           </div>
           <div>
-            <h4 className="font-headline font-semibold mb-4">Customer Service</h4>
+            <h4 className="font-headline font-semibold mb-4">Layanan Pelanggan</h4>
             <ul className="space-y-2 text-sm">
-              <li><Link href="#" className="hover:text-primary">Contact Us</Link></li>
-              <li><Link href="#" className="hover:text-primary">FAQs</Link></li>
-              <li><Link href="#" className="hover:text-primary">Shipping & Returns</Link></li>
-              <li><Link href="#" className="hover:text-primary">Size Guide</Link></li>
+              <li><Link href="#" className="hover:text-primary">Hubungi Kami</Link></li>
+              <li><Link href="#" className="hover:text-primary">FAQ</Link></li>
+              <li><Link href="#" className="hover:text-primary">Pengiriman & Pengembalian</Link></li>
+              <li><Link href="#" className="hover:text-primary">Panduan Ukuran</Link></li>
             </ul>
           </div>
           <div>
-            <h4 className="font-headline font-semibold mb-4">About Us</h4>
+            <h4 className="font-headline font-semibold mb-4">Tentang Kami</h4>
             <ul className="space-y-2 text-sm">
-              <li><Link href="#" className="hover:text-primary">Our Story</Link></li>
-              <li><Link href="#" className="hover:text-primary">Careers</Link></li>
-              <li><Link href="#" className="hover:text-primary">Privacy Policy</Link></li>
-              <li><Link href="#" className="hover:text-primary">Terms of Service</Link></li>
+              <li><Link href="#" className="hover:text-primary">Cerita Kami</Link></li>
+              <li><Link href="#" className="hover:text-primary">Karir</Link></li>
+              <li><Link href="#" className="hover:text-primary">Kebijakan Privasi</Link></li>
+              <li><Link href="#" className="hover:text-primary">Syarat & Ketentuan</Link></li>
             </ul>
           </div>
         </div>
         <div className="mt-12 border-t border-primary/20 pt-8 text-center text-sm">
-          <p>&copy; {new Date().getFullYear()} Rose Fashion. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Rose Fashion. Hak cipta dilindungi undang-undang.</p>
         </div>
       </div>
     </footer>

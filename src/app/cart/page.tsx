@@ -13,9 +13,9 @@ import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbP
 const getImageUrl = (id: string) => PlaceHolderImages.find(img => img.id === id)?.imageUrl || '';
 
 const cartItems = [
-  { ...products[0], quantity: 1, size: 'M', color: 'Rose' },
-  { ...products[2], quantity: 1, size: '8', color: 'Nude' },
-  { ...products[4], quantity: 2, size: 'S', color: 'Dusty Rose' },
+  { ...products[0], quantity: 1, size: 'M', color: 'Mawar' },
+  { ...products[2], quantity: 1, size: '38', color: 'Nude' },
+  { ...products[4], quantity: 2, size: 'S', color: 'Mawar Berdebu' },
 ];
 
 export default function CartPage() {
@@ -28,16 +28,16 @@ export default function CartPage() {
       <Breadcrumb className="mb-8">
         <BreadcrumbList>
           <BreadcrumbItem>
-            <BreadcrumbLink href="/">Home</BreadcrumbLink>
+            <BreadcrumbLink href="/">Beranda</BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbSeparator />
           <BreadcrumbItem>
-            <BreadcrumbPage>Shopping Cart</BreadcrumbPage>
+            <BreadcrumbPage>Keranjang Belanja</BreadcrumbPage>
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
       <div className="text-center mb-12">
-        <h1 className="font-headline text-4xl md:text-5xl font-bold">Your Cart</h1>
+        <h1 className="font-headline text-4xl md:text-5xl font-bold">Keranjang Anda</h1>
       </div>
       <div className="grid lg:grid-cols-3 gap-8">
         <div className="lg:col-span-2">
@@ -46,9 +46,9 @@ export default function CartPage() {
               <Table>
                 <TableHeader>
                   <TableRow>
-                    <TableHead className="w-[40%]">Product</TableHead>
-                    <TableHead>Price</TableHead>
-                    <TableHead>Quantity</TableHead>
+                    <TableHead className="w-[40%]">Produk</TableHead>
+                    <TableHead>Harga</TableHead>
+                    <TableHead>Jumlah</TableHead>
                     <TableHead>Total</TableHead>
                     <TableHead></TableHead>
                   </TableRow>
@@ -61,7 +61,7 @@ export default function CartPage() {
                           <Image src={getImageUrl(item.imageId)} alt={item.name} width={80} height={100} className="rounded-md object-cover" />
                           <div>
                             <p className="font-medium">{item.name}</p>
-                            <p className="text-sm text-muted-foreground">Size: {item.size} / Color: {item.color}</p>
+                            <p className="text-sm text-muted-foreground">Ukuran: {item.size} / Warna: {item.color}</p>
                           </div>
                         </div>
                       </TableCell>
@@ -87,7 +87,7 @@ export default function CartPage() {
         <div className="lg:col-span-1">
           <Card>
             <CardHeader>
-              <CardTitle className="font-headline">Order Summary</CardTitle>
+              <CardTitle className="font-headline">Ringkasan Pesanan</CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="flex justify-between">
@@ -95,7 +95,7 @@ export default function CartPage() {
                 <span>${subtotal.toFixed(2)}</span>
               </div>
               <div className="flex justify-between">
-                <span>Shipping</span>
+                <span>Pengiriman</span>
                 <span>${shipping.toFixed(2)}</span>
               </div>
               <Separator />
@@ -106,10 +106,10 @@ export default function CartPage() {
             </CardContent>
             <CardFooter className="flex-col gap-4">
               <Button asChild size="lg" className="w-full">
-                <Link href="/checkout">Proceed to Checkout</Link>
+                <Link href="/checkout">Lanjutkan ke Checkout</Link>
               </Button>
               <Button asChild variant="outline" className="w-full">
-                <Link href="/products">Continue Shopping</Link>
+                <Link href="/products">Lanjutkan Berbelanja</Link>
               </Button>
             </CardFooter>
           </Card>

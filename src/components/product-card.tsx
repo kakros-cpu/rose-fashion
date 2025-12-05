@@ -50,7 +50,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         <p className="font-bold text-lg">${product.price.toFixed(2)}</p>
         <Button size="sm">
             <ShoppingCart className="mr-2 h-4 w-4" />
-            Add to cart
+            Tambah ke keranjang
         </Button>
       </CardFooter>
     </Card>

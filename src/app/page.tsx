@@ -43,7 +43,7 @@ export default function Home() {
                       {slide.subtitle}
                     </p>
                     <Button asChild size="lg" className="mt-8">
-                      <Link href="/products">Shop Now</Link>
+                      <Link href="/products">Belanja Sekarang</Link>
                     </Button>
                   </div>
                 </div>
@@ -58,8 +58,8 @@ export default function Home() {
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="font-headline text-3xl md:text-4xl font-bold">Featured Products</h2>
-            <p className="text-muted-foreground mt-2">Discover our handpicked selection of must-have items.</p>
+            <h2 className="font-headline text-3xl md:text-4xl font-bold">Produk Unggulan</h2>
+            <p className="text-muted-foreground mt-2">Temukan pilihan item pilihan kami yang wajib dimiliki.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {featuredProducts.map((product) => (
@@ -68,7 +68,7 @@ export default function Home() {
           </div>
           <div className="text-center mt-12">
             <Button asChild variant="outline">
-              <Link href="/products">View All Products <ArrowRight className="ml-2 h-4 w-4" /></Link>
+              <Link href="/products">Lihat Semua Produk <ArrowRight className="ml-2 h-4 w-4" /></Link>
             </Button>
           </div>
         </div>
@@ -79,8 +79,8 @@ export default function Home() {
       <section className="py-16 md:py-24 bg-accent/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="font-headline text-3xl md:text-4xl font-bold">Shop by Category</h2>
-            <p className="text-muted-foreground mt-2">Find your perfect style from our curated collections.</p>
+            <h2 className="font-headline text-3xl md:text-4xl font-bold">Belanja Berdasarkan Kategori</h2>
+            <p className="text-muted-foreground mt-2">Temukan gaya sempurna Anda dari koleksi pilihan kami.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
             {categories.slice(0, 4).map((category) => (
@@ -110,8 +110,8 @@ export default function Home() {
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="font-headline text-3xl md:text-4xl font-bold">What Our Customers Say</h2>
-            <p className="text-muted-foreground mt-2">Real reviews from our happy shoppers.</p>
+            <h2 className="font-headline text-3xl md:text-4xl font-bold">Kata Pelanggan Kami</h2>
+            <p className="text-muted-foreground mt-2">Ulasan nyata dari pembeli kami yang bahagia.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {reviews.slice(0, 3).map((review) => (

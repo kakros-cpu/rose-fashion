@@ -29,11 +29,11 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
       <Breadcrumb className="mb-8">
         <BreadcrumbList>
           <BreadcrumbItem>
-            <BreadcrumbLink href="/">Home</BreadcrumbLink>
+            <BreadcrumbLink href="/">Beranda</BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbSeparator />
           <BreadcrumbItem>
-            <BreadcrumbLink href="/products">Shop</BreadcrumbLink>
+            <BreadcrumbLink href="/products">Toko</BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbSeparator />
           <BreadcrumbItem>
@@ -58,7 +58,7 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
           <h1 className="font-headline text-3xl md:text-4xl font-bold">{product.name}</h1>
           <div className="flex items-center gap-2 mt-2">
             <Rating value={product.rating} />
-            <span className="text-sm text-muted-foreground">({productReviews.length} reviews)</span>
+            <span className="text-sm text-muted-foreground">({productReviews.length} ulasan)</span>
           </div>
           <p className="text-3xl font-bold mt-4">${product.price.toFixed(2)}</p>
           <p className="text-muted-foreground mt-4">{product.description}</p>
@@ -67,7 +67,7 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
 
           <div className="space-y-6">
             <div>
-              <Label className="text-base font-medium">Color</Label>
+              <Label className="text-base font-medium">Warna</Label>
               <RadioGroup defaultValue={product.colors[0].name.toLowerCase()} className="flex items-center gap-2 mt-2">
                 {product.colors.map(color => (
                   <RadioGroupItem key={color.name} value={color.name.toLowerCase()} id={`color-${color.name}`} className="sr-only" />
@@ -81,7 +81,7 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
             </div>
 
             <div>
-              <Label className="text-base font-medium">Size</Label>
+              <Label className="text-base font-medium">Ukuran</Label>
               <RadioGroup defaultValue={product.sizes[1]} className="flex flex-wrap items-center gap-2 mt-2">
                 {product.sizes.map(size => (
                   <div key={size}>
@@ -95,7 +95,7 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
             </div>
             
             <div className="flex items-center gap-4">
-              <Label className="text-base font-medium">Quantity</Label>
+              <Label className="text-base font-medium">Jumlah</Label>
               <div className="flex items-center border rounded-md">
                 <Button variant="ghost" size="icon" className="h-10 w-10"><Minus className="h-4 w-4" /></Button>
                 <span className="w-8 text-center">1</span>
@@ -105,7 +105,7 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
           </div>
           
           <Button size="lg" className="w-full mt-8">
-            <ShoppingCart className="mr-2 h-5 w-5" /> Add to Cart
+            <ShoppingCart className="mr-2 h-5 w-5" /> Tambah ke Keranjang
           </Button>
         </div>
       </div>
@@ -113,7 +113,7 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
       <div className="mt-16">
         <Card>
           <CardHeader>
-            <CardTitle className="font-headline text-2xl">Customer Reviews</CardTitle>
+            <CardTitle className="font-headline text-2xl">Ulasan Pelanggan</CardTitle>
           </CardHeader>
           <CardContent>
             {productReviews.length > 0 ? (
@@ -136,9 +136,9 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
                 ))}
               </div>
             ) : (
-              <p className="text-muted-foreground">No reviews yet. Be the first to share your thoughts!</p>
+              <p className="text-muted-foreground">Belum ada ulasan. Jadilah yang pertama memberikan ulasan!</p>
             )}
-            <Button variant="outline" className="mt-8">Write a Review</Button>
+            <Button variant="outline" className="mt-8">Tulis Ulasan</Button>
           </CardContent>
         </Card>
       </div>

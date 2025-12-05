@@ -13,18 +13,18 @@ import { Slider } from "@/components/ui/slider"
 import { categories } from "@/lib/data"
 import { useState } from "react"
 
-const colors = ['Rose', 'Lavender', 'Cream', 'Black', 'Brown', 'Nude', 'Beige', 'Navy', 'Heather Grey', 'Classic Wash', 'Champagne'];
-const sizes = ['XS', 'S', 'M', 'L', 'XL', 'One Size'];
+const colors = ['Mawar', 'Lavender', 'Krem', 'Hitam', 'Cokelat', 'Nude', 'Beige', 'Biru Dongker', 'Abu-abu Heather', 'Classic Wash', 'Champagne'];
+const sizes = ['XS', 'S', 'M', 'L', 'XL', 'Satu Ukuran'];
 
 export function ProductFilters() {
   const [priceRange, setPriceRange] = useState([0, 200]);
 
   return (
     <div className="sticky top-20">
-      <h3 className="text-lg font-headline font-semibold mb-4">Filters</h3>
+      <h3 className="text-lg font-headline font-semibold mb-4">Filter</h3>
       <Accordion type="multiple" defaultValue={['category', 'price']} className="w-full">
         <AccordionItem value="category">
-          <AccordionTrigger>Category</AccordionTrigger>
+          <AccordionTrigger>Kategori</AccordionTrigger>
           <AccordionContent>
             <div className="space-y-2">
               {categories.map(category => (
@@ -37,7 +37,7 @@ export function ProductFilters() {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="price">
-          <AccordionTrigger>Price</AccordionTrigger>
+          <AccordionTrigger>Harga</AccordionTrigger>
           <AccordionContent>
             <div className="p-1">
               <div className="flex justify-between mb-2 text-sm">
@@ -55,7 +55,7 @@ export function ProductFilters() {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="colors">
-          <AccordionTrigger>Color</AccordionTrigger>
+          <AccordionTrigger>Warna</AccordionTrigger>
           <AccordionContent>
             <div className="grid grid-cols-3 gap-2">
               {colors.map(color => (
@@ -68,7 +68,7 @@ export function ProductFilters() {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="sizes">
-          <AccordionTrigger>Size</AccordionTrigger>
+          <AccordionTrigger>Ukuran</AccordionTrigger>
           <AccordionContent>
              <div className="grid grid-cols-3 gap-2">
               {sizes.map(size => (
@@ -81,24 +81,24 @@ export function ProductFilters() {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="rating">
-          <AccordionTrigger>Rating</AccordionTrigger>
+          <AccordionTrigger>Peringkat</AccordionTrigger>
           <AccordionContent>
              <RadioGroup defaultValue="any">
               <div className="flex items-center space-x-2">
                 <RadioGroupItem value="4" id="r1" />
-                <Label htmlFor="r1">4 stars & up</Label>
+                <Label htmlFor="r1">4 bintang ke atas</Label>
               </div>
               <div className="flex items-center space-x-2">
                 <RadioGroupItem value="3" id="r2" />
-                <Label htmlFor="r2">3 stars & up</Label>
+                <Label htmlFor="r2">3 bintang ke atas</Label>
               </div>
               <div className="flex items-center space-x-2">
                 <RadioGroupItem value="2" id="r3" />
-                <Label htmlFor="r3">2 stars & up</Label>
+                <Label htmlFor="r3">2 bintang ke atas</Label>
               </div>
               <div className="flex items-center space-x-2">
                 <RadioGroupItem value="any" id="r4" />
-                <Label htmlFor="r4">Any</Label>
+                <Label htmlFor="r4">Apa saja</Label>
               </div>
             </RadioGroup>
           </AccordionContent>

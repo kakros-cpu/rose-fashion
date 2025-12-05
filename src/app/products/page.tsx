@@ -9,19 +9,19 @@ export default function ProductsPage() {
       <Breadcrumb className="mb-8">
         <BreadcrumbList>
           <BreadcrumbItem>
-            <BreadcrumbLink href="/">Home</BreadcrumbLink>
+            <BreadcrumbLink href="/">Beranda</BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbSeparator />
           <BreadcrumbItem>
-            <BreadcrumbPage>Shop</BreadcrumbPage>
+            <BreadcrumbPage>Toko</BreadcrumbPage>
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
       
       <div className="text-center mb-12">
-        <h1 className="font-headline text-4xl md:text-5xl font-bold">Our Collection</h1>
+        <h1 className="font-headline text-4xl md:text-5xl font-bold">Koleksi Kami</h1>
         <p className="text-muted-foreground mt-2 max-w-2xl mx-auto">
-          Explore our exclusive collection of clothing and accessories, thoughtfully designed for the modern individual.
+          Jelajahi koleksi eksklusif pakaian dan aksesori kami, yang dirancang dengan cermat untuk individu modern.
         </p>
       </div>
 

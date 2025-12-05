@@ -1,3 +1,94 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-1",
+      "description": "A stylish woman in a flowing dress in a beautiful city.",
+      "imageUrl": "https://images.unsplash.com/photo-1562572159-4efc207f5aff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmYXNoaW9uJTIwbW9kZWx8ZW58MHx8fHwxNzY0ODIzMzUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fashion model"
+    },
+    {
+      "id": "hero-2",
+      "description": "A close-up of high-quality fashion accessories.",
+      "imageUrl": "https://images.unsplash.com/photo-1492707892479-7bc8d5a4ee93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYXNoaW9uJTIwYWNjZXNzb3JpZXN8ZW58MHx8fHwxNzY0Nzk4MzI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fashion accessories"
+    },
+    {
+      "id": "hero-3",
+      "description": "Models showcasing the latest seasonal collection.",
+      "imageUrl": "https://images.unsplash.com/photo-1566415292548-3dc58030dac3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmYXNoaW9uJTIwY29sbGVjdGlvbnxlbnwwfHx8fDE3NjQ4NDkxNTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fashion collection"
+    },
+    {
+      "id": "product-1",
+      "description": "Elegant floral midi dress.",
+      "imageUrl": "https://images.unsplash.com/photo-1591774921149-70c37a3fe407?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmbG9yYWwlMjBkcmVzc3xlbnwwfHx8fDE3NjQ4NTk5MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "floral dress"
+    },
+    {
+      "id": "product-2",
+      "description": "Classic leather handbag.",
+      "imageUrl": "https://images.unsplash.com/photo-1727811641802-d28d9fb37e28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsZWF0aGVyJTIwaGFuZGJhZ3xlbnwwfHx8fDE3NjQ4MzQxNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "leather handbag"
+    },
+    {
+      "id": "product-3",
+      "description": "Chic high-heeled sandals.",
+      "imageUrl": "https://images.unsplash.com/photo-1762588120995-e69626c260c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWVsZWQlMjBzYW5kYWxzfGVufDB8fHx8MTc2NDkwNDM4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "heeled sandals"
+    },
+    {
+      "id": "product-4",
+      "description": "Modern tapered trousers.",
+      "imageUrl": "https://images.unsplash.com/photo-1764751414929-e392b6bb91a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx0YXBlcmVkJTIwdHJvdXNlcnN8ZW58MHx8fHwxNzY0OTA0MzgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tapered trousers"
+    },
+    {
+      "id": "product-5",
+      "description": "Soft cashmere sweater.",
+      "imageUrl": "https://images.unsplash.com/photo-1687275170170-a54128a6d2b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjYXNobWVyZSUyMHN3ZWF0ZXJ8ZW58MHx8fHwxNzY0ODk4MjY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cashmere sweater"
+    },
+    {
+      "id": "product-6",
+      "description": "Stylish denim jacket.",
+      "imageUrl": "https://images.unsplash.com/photo-1614697688184-66a55d41e298?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkZW5pbSUyMGphY2tldHxlbnwwfHx8fDE3NjQ4MjU2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "denim jacket"
+    },
+    {
+      "id": "product-7",
+      "description": "Bohemian maxi skirt.",
+      "imageUrl": "https://images.unsplash.com/photo-1649315324621-3d63b5aae680?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYXhpJTIwc2tpcnR8ZW58MHx8fHwxNzY0OTA0MzgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "maxi skirt"
+    },
+    {
+      "id": "product-8",
+      "description": "Elegant silk blouse.",
+      "imageUrl": "https://images.unsplash.com/photo-1694243382362-14da84ba6a2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzaWxrJTIwYmxvdXNlfGVufDB8fHx8MTc2NDg0MDY3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "silk blouse"
+    },
+    {
+      "id": "category-1",
+      "description": "A collection of beautiful dresses.",
+      "imageUrl": "https://images.unsplash.com/photo-1762834923135-f125e65b88eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkcmVzc2VzJTIwY29sbGVjdGlvbnxlbnwwfHx8fDE3NjQ4MTQ2NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dresses collection"
+    },
+    {
+      "id": "category-2",
+      "description": "A variety of stylish shoes.",
+      "imageUrl": "https://images.unsplash.com/photo-1629212537116-151e8fb7469f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzaG9lcyUyMGNvbGxlY3Rpb258ZW58MHx8fHwxNzY0OTA0MzgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "shoes collection"
+    },
+    {
+      "id": "category-3",
+      "description": "An assortment of fashionable tops.",
+      "imageUrl": "https://images.unsplash.com/photo-1685633225047-92be467dbe57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx0b3BzJTIwY29sbGVjdGlvbnxlbnwwfHx8fDE3NjQ5MDQzODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tops collection"
+    },
+    {
+      "id": "category-4",
+      "description": "A range of elegant accessories.",
+      "imageUrl": "https://images.unsplash.com/photo-1757361413917-686cd671ee56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhY2Nlc3NvcmllcyUyMGNvbGxlY3Rpb258ZW58MHx8fHwxNzY0OTA0MzgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "accessories collection"
+    }
+  ]
 }

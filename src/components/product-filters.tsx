@@ -11,13 +11,14 @@ import { Label } from "@/components/ui/label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Slider } from "@/components/ui/slider"
 import { categories } from "@/lib/data"
+import { formatPrice } from "@/lib/utils"
 import { useState } from "react"
 
 const colors = ['Mawar', 'Lavender', 'Krem', 'Hitam', 'Cokelat', 'Nude', 'Beige', 'Biru Dongker', 'Abu-abu Heather', 'Classic Wash', 'Champagne'];
 const sizes = ['XS', 'S', 'M', 'L', 'XL', 'Satu Ukuran'];
 
 export function ProductFilters() {
-  const [priceRange, setPriceRange] = useState([0, 200]);
+  const [priceRange, setPriceRange] = useState([0, 3000000]);
 
   return (
     <div className="sticky top-20">
@@ -41,14 +42,14 @@ export function ProductFilters() {
           <AccordionContent>
             <div className="p-1">
               <div className="flex justify-between mb-2 text-sm">
-                <span>${priceRange[0]}</span>
-                <span>${priceRange[1]}{priceRange[1] === 200 && '+'}</span>
+                <span>{formatPrice(priceRange[0])}</span>
+                <span>{formatPrice(priceRange[1])}{priceRange[1] === 3000000 && '+'}</span>
               </div>
               <Slider
-                defaultValue={[0, 200]}
+                defaultValue={[0, 3000000]}
                 min={0}
-                max={200}
-                step={10}
+                max={3000000}
+                step={100000}
                 onValueChange={setPriceRange}
               />
             </div>

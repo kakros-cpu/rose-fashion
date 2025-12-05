@@ -11,6 +11,7 @@ import { Rating } from '@/components/rating';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Label } from '@/components/ui/label';
 import { Minus, Plus, ShoppingCart } from 'lucide-react';
+import { formatPrice } from '@/lib/utils';
 
 const getImageUrl = (id: string) => PlaceHolderImages.find(img => img.id === id)?.imageUrl || '';
 const getImageHint = (id: string) => PlaceHolderImages.find(img => img.id === id)?.imageHint || '';
@@ -60,7 +61,7 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
             <Rating value={product.rating} />
             <span className="text-sm text-muted-foreground">({productReviews.length} ulasan)</span>
           </div>
-          <p className="text-3xl font-bold mt-4">${product.price.toFixed(2)}</p>
+          <p className="text-3xl font-bold mt-4">{formatPrice(product.price)}</p>
           <p className="text-muted-foreground mt-4">{product.description}</p>
           
           <Separator className="my-6" />

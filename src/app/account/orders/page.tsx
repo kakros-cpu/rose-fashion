@@ -7,25 +7,26 @@ import {
   TableRow,
 } from "@/components/ui/table"
 import { Badge } from "@/components/ui/badge"
+import { formatPrice } from "@/lib/utils";
 
 const orders = [
   {
     id: "ORD001",
     date: "2023-11-23",
     status: "Terkirim",
-    total: "$169.98",
+    total: 2550000,
   },
   {
     id: "ORD002",
     date: "2023-12-05",
     status: "Diproses",
-    total: "$89.99",
+    total: 1350000,
   },
   {
     id: "ORD003",
     date: "2024-01-12",
     status: "Dikirim",
-    total: "$249.50",
+    total: 3750000,
   },
 ];
 
@@ -62,7 +63,7 @@ export default function OrdersPage() {
                     {order.status}
                   </Badge>
                 </TableCell>
-                <TableCell className="text-right">{order.total}</TableCell>
+                <TableCell className="text-right">{formatPrice(order.total)}</TableCell>
               </TableRow>
             ))}
           </TableBody>

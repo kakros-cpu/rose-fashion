@@ -9,6 +9,7 @@ import { products } from '@/lib/data';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from '@/components/ui/breadcrumb';
+import { formatPrice } from '@/lib/utils';
 
 const getImageUrl = (id: string) => PlaceHolderImages.find(img => img.id === id)?.imageUrl || '';
 
@@ -17,7 +18,7 @@ const cartItems = [
   { ...products[2], quantity: 1 },
 ];
 const subtotal = cartItems.reduce((acc, item) => acc + item.price * item.quantity, 0);
-const shipping = 10.00;
+const shipping = 50000;
 const total = subtotal + shipping;
 
 export default function CheckoutPage() {
@@ -122,7 +123,7 @@ export default function CheckoutPage() {
                         <p className="text-sm text-muted-foreground">Jumlah: {item.quantity}</p>
                       </div>
                     </div>
-                    <p className="font-medium">${(item.price * item.quantity).toFixed(2)}</p>
+                    <p className="font-medium">{formatPrice(item.price * item.quantity)}</p>
                   </div>
                 ))}
               </div>
@@ -130,16 +131,16 @@ export default function CheckoutPage() {
               <div className="space-y-2">
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">Subtotal</span>
-                  <span>${subtotal.toFixed(2)}</span>
+                  <span>{formatPrice(subtotal)}</span>
                 </div>
                  <div className="flex justify-between">
                   <span className="text-muted-foreground">Pengiriman</span>
-                  <span>${shipping.toFixed(2)}</span>
+                  <span>{formatPrice(shipping)}</span>
                 </div>
                 <Separator className="my-2" />
                 <div className="flex justify-between font-bold text-lg">
                   <span>Total</span>
-                  <span>${total.toFixed(2)}</span>
+                  <span>{formatPrice(total)}</span>
                 </div>
               </div>
             </CardContent>

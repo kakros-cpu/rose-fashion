@@ -6,6 +6,7 @@ import { Card, CardContent, CardFooter } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Heart, ShoppingCart } from 'lucide-react';
 import { Rating } from './rating';
+import { formatPrice } from '@/lib/utils';
 
 interface ProductCardProps {
   product: Product;
@@ -47,7 +48,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         </div>
       </CardContent>
       <CardFooter className="flex justify-between items-center p-4 pt-0">
-        <p className="font-bold text-lg">${product.price.toFixed(2)}</p>
+        <p className="font-bold text-lg">{formatPrice(product.price)}</p>
         <Button size="sm">
             <ShoppingCart className="mr-2 h-4 w-4" />
             Tambah ke keranjang

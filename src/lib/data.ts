@@ -49,7 +49,7 @@ export const heroSlides: HeroSlide[] = [
   },
   {
     id: 3,
-    title: 'Diskon Hingga 40%',
+    title: 'Penawaran Spesial',
     subtitle: 'Penawaran waktu terbatas untuk item tertentu. Jangan lewatkan kesempatan Anda untuk memiliki busana premium dengan harga menarik.',
     imageId: 'hero-3',
   }

@@ -8,7 +8,7 @@ export default function AccountDashboardPage() {
     <div className="space-y-6">
         <h2 className="text-2xl font-headline font-semibold">Dasbor</h2>
         <p className="text-muted-foreground">
-            Selamat datang kembali, Jane! Dari sini Anda dapat mengelola pesanan, alamat pengiriman, dan detail profil Anda.
+            Selamat datang di web kami! Dari sini Anda dapat mengelola pesanan, alamat pengiriman, dan detail profil Anda.
         </p>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           <Card>

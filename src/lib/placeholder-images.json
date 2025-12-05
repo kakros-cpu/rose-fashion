@@ -2,92 +2,92 @@
   "placeholderImages": [
     {
       "id": "hero-1",
-      "description": "A stylish woman in a flowing dress in a beautiful city.",
-      "imageUrl": "https://images.unsplash.com/photo-1562572159-4efc207f5aff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmYXNoaW9uJTIwbW9kZWx8ZW58MHx8fHwxNzY0ODIzMzUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Seorang wanita bergaya dengan gaun yang mengalir di kota yang indah.",
+      "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
       "imageHint": "fashion model"
     },
     {
       "id": "hero-2",
-      "description": "A close-up of high-quality fashion accessories.",
-      "imageUrl": "https://images.unsplash.com/photo-1492707892479-7bc8d5a4ee93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYXNoaW9uJTIwYWNjZXNzb3JpZXN8ZW58MHx8fHwxNzY0Nzk4MzI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Sebuah close-up dari aksesori fashion berkualitas tinggi.",
+      "imageUrl": "https://images.unsplash.com/photo-1512469426359-92f1f1d19119?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
       "imageHint": "fashion accessories"
     },
     {
       "id": "hero-3",
-      "description": "Models showcasing the latest seasonal collection.",
-      "imageUrl": "https://images.unsplash.com/photo-1566415292548-3dc58030dac3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmYXNoaW9uJTIwY29sbGVjdGlvbnxlbnwwfHx8fDE3NjQ4NDkxNTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Model yang memamerkan koleksi musiman terbaru.",
+      "imageUrl": "https://images.unsplash.com/photo-1517940310962-3a838e8df823?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80",
       "imageHint": "fashion collection"
     },
     {
       "id": "product-1",
-      "description": "Elegant floral midi dress.",
-      "imageUrl": "https://images.unsplash.com/photo-1591774921149-70c37a3fe407?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmbG9yYWwlMjBkcmVzc3xlbnwwfHx8fDE3NjQ4NTk5MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Gaun midi bunga yang elegan.",
+      "imageUrl": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
       "imageHint": "floral dress"
     },
     {
       "id": "product-2",
-      "description": "Classic leather handbag.",
-      "imageUrl": "https://images.unsplash.com/photo-1727811641802-d28d9fb37e28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsZWF0aGVyJTIwaGFuZGJhZ3xlbnwwfHx8fDE3NjQ4MzQxNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Tas tangan kulit klasik.",
+      "imageUrl": "https://images.unsplash.com/photo-1620921282245-a5d97561d054?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
       "imageHint": "leather handbag"
     },
     {
       "id": "product-3",
-      "description": "Chic high-heeled sandals.",
-      "imageUrl": "https://images.unsplash.com/photo-1762588120995-e69626c260c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWVsZWQlMjBzYW5kYWxzfGVufDB8fHx8MTc2NDkwNDM4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Sandal hak tinggi yang chic.",
+      "imageUrl": "https://images.unsplash.com/photo-1538281313135-a1c034a75c1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
       "imageHint": "heeled sandals"
     },
     {
       "id": "product-4",
-      "description": "Modern tapered trousers.",
-      "imageUrl": "https://images.unsplash.com/photo-1764751414929-e392b6bb91a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx0YXBlcmVkJTIwdHJvdXNlcnN8ZW58MHx8fHwxNzY0OTA0MzgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Celana panjang tapered modern.",
+      "imageUrl": "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
       "imageHint": "tapered trousers"
     },
     {
       "id": "product-5",
-      "description": "Soft cashmere sweater.",
-      "imageUrl": "https://images.unsplash.com/photo-1687275170170-a54128a6d2b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjYXNobWVyZSUyMHN3ZWF0ZXJ8ZW58MHx8fHwxNzY0ODk4MjY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Sweater kasmir yang lembut.",
+      "imageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
       "imageHint": "cashmere sweater"
     },
     {
       "id": "product-6",
-      "description": "Stylish denim jacket.",
-      "imageUrl": "https://images.unsplash.com/photo-1614697688184-66a55d41e298?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkZW5pbSUyMGphY2tldHxlbnwwfHx8fDE3NjQ4MjU2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Jaket denim yang stylish.",
+      "imageUrl": "https://images.unsplash.com/photo-1543087903-1ac2ec7aa8c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
       "imageHint": "denim jacket"
     },
     {
       "id": "product-7",
-      "description": "Bohemian maxi skirt.",
-      "imageUrl": "https://images.unsplash.com/photo-1649315324621-3d63b5aae680?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYXhpJTIwc2tpcnR8ZW58MHx8fHwxNzY0OTA0MzgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Rok maxi bohemian.",
+      "imageUrl": "https://images.unsplash.com/photo-1590391321037-41a998b4c2b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
       "imageHint": "maxi skirt"
     },
     {
       "id": "product-8",
-      "description": "Elegant silk blouse.",
-      "imageUrl": "https://images.unsplash.com/photo-1694243382362-14da84ba6a2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzaWxrJTIwYmxvdXNlfGVufDB8fHx8MTc2NDg0MDY3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Blus sutra yang elegan.",
+      "imageUrl": "https://images.unsplash.com/photo-1589465885857-add45f492a2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
       "imageHint": "silk blouse"
     },
     {
       "id": "category-1",
-      "description": "A collection of beautiful dresses.",
-      "imageUrl": "https://images.unsplash.com/photo-1762834923135-f125e65b88eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkcmVzc2VzJTIwY29sbGVjdGlvbnxlbnwwfHx8fDE3NjQ4MTQ2NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Koleksi gaun yang indah.",
+      "imageUrl": "https://images.unsplash.com/photo-1595535373182-1e9c228a760e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
       "imageHint": "dresses collection"
     },
     {
       "id": "category-2",
-      "description": "A variety of stylish shoes.",
-      "imageUrl": "https://images.unsplash.com/photo-1629212537116-151e8fb7469f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzaG9lcyUyMGNvbGxlY3Rpb258ZW58MHx8fHwxNzY0OTA0MzgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Berbagai sepatu yang stylish.",
+      "imageUrl": "https://images.unsplash.com/photo-1562273138-5916283b78eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
       "imageHint": "shoes collection"
     },
     {
       "id": "category-3",
-      "description": "An assortment of fashionable tops.",
-      "imageUrl": "https://images.unsplash.com/photo-1685633225047-92be467dbe57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx0b3BzJTIwY29sbGVjdGlvbnxlbnwwfHx8fDE3NjQ5MDQzODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Berbagai macam atasan yang modis.",
+      "imageUrl": "https://images.unsplash.com/photo-1622470953794-aa9c70b0fb9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
       "imageHint": "tops collection"
     },
     {
       "id": "category-4",
-      "description": "A range of elegant accessories.",
-      "imageUrl": "https://images.unsplash.com/photo-1757361413917-686cd671ee56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhY2Nlc3NvcmllcyUyMGNvbGxlY3Rpb258ZW58MHx8fHwxNzY0OTA0MzgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Berbagai macam aksesoris yang elegan.",
+      "imageUrl": "https://images.unsplash.com/photo-1593998066526-65fcab3021a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       "imageHint": "accessories collection"
     }
   ]

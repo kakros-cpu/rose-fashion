@@ -10,7 +10,6 @@ const navLinks = [
   { href: '/', label: 'Beranda' },
   { href: '/products', label: 'Toko' },
   { href: '#', label: 'Pendatang Baru' },
-  { href: '#', label: 'Diskon' },
 ];
 
 export default function Header() {

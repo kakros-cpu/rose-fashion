@@ -28,7 +28,6 @@ export default function Footer() {
               <li><Link href="/products" className="hover:text-primary">Semua Produk</Link></li>
               <li><Link href="#" className="hover:text-primary">Pendatang Baru</Link></li>
               <li><Link href="#" className="hover:text-primary">Terlaris</Link></li>
-              <li><Link href="#" className="hover:text-primary">Diskon</Link></li>
             </ul>
           </div>
           <div>

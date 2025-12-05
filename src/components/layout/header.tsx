@@ -27,7 +27,7 @@ export default function Header() {
           <nav className="flex items-center space-x-6 text-sm font-medium">
             {navLinks.map((link) => (
               <Link
-                key={link.href}
+                key={`${link.href}-${link.label}`}
                 href={link.href}
                 className="transition-colors hover:text-primary"
               >
@@ -55,7 +55,7 @@ export default function Header() {
               <nav className="flex flex-col space-y-2">
                 {navLinks.map((link) => (
                   <Link
-                    key={link.href}
+                    key={`${link.href}-${link.label}-mobile`}
                     href={link.href}
                     className="px-2 py-1 rounded-md transition-colors hover:bg-accent"
                   >
